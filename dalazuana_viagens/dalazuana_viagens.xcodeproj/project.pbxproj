@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55DF2174271BED5D00B1F382 /* dalazuana_viagensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2164271BED5C00B1F382 /* dalazuana_viagensApp.swift */; };
+		55DF2175271BED5D00B1F382 /* dalazuana_viagensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2164271BED5C00B1F382 /* dalazuana_viagensApp.swift */; };
+		55DF2178271BED5D00B1F382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DF2166271BED5D00B1F382 /* Assets.xcassets */; };
+		55DF2179271BED5D00B1F382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DF2166271BED5D00B1F382 /* Assets.xcassets */; };
+		55DF218A271BED8000B1F382 /* MapaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2183271BED8000B1F382 /* MapaView.swift */; };
+		55DF218B271BED8000B1F382 /* MapaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2183271BED8000B1F382 /* MapaView.swift */; };
+		55DF218C271BED8000B1F382 /* ViagemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2184271BED8000B1F382 /* ViagemViewCell.swift */; };
+		55DF218D271BED8000B1F382 /* ViagemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2184271BED8000B1F382 /* ViagemViewCell.swift */; };
+		55DF218E271BED8000B1F382 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2185271BED8000B1F382 /* HeaderView.swift */; };
+		55DF218F271BED8000B1F382 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2185271BED8000B1F382 /* HeaderView.swift */; };
+		55DF2190271BED8000B1F382 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2186271BED8000B1F382 /* ContentView.swift */; };
+		55DF2191271BED8000B1F382 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2186271BED8000B1F382 /* ContentView.swift */; };
+		55DF2192271BED8000B1F382 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2188271BED8000B1F382 /* Dados.swift */; };
+		55DF2193271BED8000B1F382 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2188271BED8000B1F382 /* Dados.swift */; };
+		55DF2194271BED8000B1F382 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2189271BED8000B1F382 /* Viagem.swift */; };
+		55DF2195271BED8000B1F382 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF2189271BED8000B1F382 /* Viagem.swift */; };
+		55DF2197271BEDF400B1F382 /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = 55DF2196271BEDF400B1F382 /* viagens.json */; };
+		55DF2198271BEDF400B1F382 /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = 55DF2196271BEDF400B1F382 /* viagens.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55DF2164271BED5C00B1F382 /* dalazuana_viagensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dalazuana_viagensApp.swift; sourceTree = "<group>"; };
+		55DF2166271BED5D00B1F382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55DF216B271BED5D00B1F382 /* dalazuana_viagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dalazuana_viagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DF2171271BED5D00B1F382 /* dalazuana_viagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dalazuana_viagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DF2173271BED5D00B1F382 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		55DF2183271BED8000B1F382 /* MapaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaView.swift; sourceTree = "<group>"; };
+		55DF2184271BED8000B1F382 /* ViagemViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViagemViewCell.swift; sourceTree = "<group>"; };
+		55DF2185271BED8000B1F382 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		55DF2186271BED8000B1F382 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55DF2188271BED8000B1F382 /* Dados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
+		55DF2189271BED8000B1F382 /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		55DF2196271BEDF400B1F382 /* viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = viagens.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55DF2168271BED5D00B1F382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DF216E271BED5D00B1F382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55DF215E271BED5B00B1F382 = {
+			isa = PBXGroup;
+			children = (
+				55DF2163271BED5C00B1F382 /* Shared */,
+				55DF2172271BED5D00B1F382 /* macOS */,
+				55DF216C271BED5D00B1F382 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55DF2163271BED5C00B1F382 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				55DF2164271BED5C00B1F382 /* dalazuana_viagensApp.swift */,
+				55DF2196271BEDF400B1F382 /* viagens.json */,
+				55DF2187271BED8000B1F382 /* Models */,
+				55DF2182271BED8000B1F382 /* View */,
+				55DF2166271BED5D00B1F382 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		55DF216C271BED5D00B1F382 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55DF216B271BED5D00B1F382 /* dalazuana_viagens.app */,
+				55DF2171271BED5D00B1F382 /* dalazuana_viagens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55DF2172271BED5D00B1F382 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				55DF2173271BED5D00B1F382 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		55DF2182271BED8000B1F382 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55DF2183271BED8000B1F382 /* MapaView.swift */,
+				55DF2184271BED8000B1F382 /* ViagemViewCell.swift */,
+				55DF2185271BED8000B1F382 /* HeaderView.swift */,
+				55DF2186271BED8000B1F382 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55DF2187271BED8000B1F382 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55DF2188271BED8000B1F382 /* Dados.swift */,
+				55DF2189271BED8000B1F382 /* Viagem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55DF216A271BED5D00B1F382 /* dalazuana_viagens (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DF217C271BED5D00B1F382 /* Build configuration list for PBXNativeTarget "dalazuana_viagens (iOS)" */;
+			buildPhases = (
+				55DF2167271BED5D00B1F382 /* Sources */,
+				55DF2168271BED5D00B1F382 /* Frameworks */,
+				55DF2169271BED5D00B1F382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dalazuana_viagens (iOS)";
+			productName = "dalazuana_viagens (iOS)";
+			productReference = 55DF216B271BED5D00B1F382 /* dalazuana_viagens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55DF2170271BED5D00B1F382 /* dalazuana_viagens (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DF217F271BED5D00B1F382 /* Build configuration list for PBXNativeTarget "dalazuana_viagens (macOS)" */;
+			buildPhases = (
+				55DF216D271BED5D00B1F382 /* Sources */,
+				55DF216E271BED5D00B1F382 /* Frameworks */,
+				55DF216F271BED5D00B1F382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dalazuana_viagens (macOS)";
+			productName = "dalazuana_viagens (macOS)";
+			productReference = 55DF2171271BED5D00B1F382 /* dalazuana_viagens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55DF215F271BED5B00B1F382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					55DF216A271BED5D00B1F382 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					55DF2170271BED5D00B1F382 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 55DF2162271BED5B00B1F382 /* Build configuration list for PBXProject "dalazuana_viagens" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55DF215E271BED5B00B1F382;
+			productRefGroup = 55DF216C271BED5D00B1F382 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55DF216A271BED5D00B1F382 /* dalazuana_viagens (iOS) */,
+				55DF2170271BED5D00B1F382 /* dalazuana_viagens (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55DF2169271BED5D00B1F382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DF2178271BED5D00B1F382 /* Assets.xcassets in Resources */,
+				55DF2197271BEDF400B1F382 /* viagens.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DF216F271BED5D00B1F382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DF2179271BED5D00B1F382 /* Assets.xcassets in Resources */,
+				55DF2198271BEDF400B1F382 /* viagens.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55DF2167271BED5D00B1F382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DF2194271BED8000B1F382 /* Viagem.swift in Sources */,
+				55DF2192271BED8000B1F382 /* Dados.swift in Sources */,
+				55DF218E271BED8000B1F382 /* HeaderView.swift in Sources */,
+				55DF2190271BED8000B1F382 /* ContentView.swift in Sources */,
+				55DF218A271BED8000B1F382 /* MapaView.swift in Sources */,
+				55DF2174271BED5D00B1F382 /* dalazuana_viagensApp.swift in Sources */,
+				55DF218C271BED8000B1F382 /* ViagemViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DF216D271BED5D00B1F382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DF2195271BED8000B1F382 /* Viagem.swift in Sources */,
+				55DF2193271BED8000B1F382 /* Dados.swift in Sources */,
+				55DF218F271BED8000B1F382 /* HeaderView.swift in Sources */,
+				55DF2191271BED8000B1F382 /* ContentView.swift in Sources */,
+				55DF218B271BED8000B1F382 /* MapaView.swift in Sources */,
+				55DF2175271BED5D00B1F382 /* dalazuana_viagensApp.swift in Sources */,
+				55DF218D271BED8000B1F382 /* ViagemViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55DF217A271BED5D00B1F382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55DF217B271BED5D00B1F382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		55DF217D271BED5D00B1F382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U258Z3LPU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.walicen.dalazuana-viagens";
+				PRODUCT_NAME = dalazuana_viagens;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55DF217E271BED5D00B1F382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U258Z3LPU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.walicen.dalazuana-viagens";
+				PRODUCT_NAME = dalazuana_viagens;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55DF2180271BED5D00B1F382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U258Z3LPU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.walicen.dalazuana-viagens";
+				PRODUCT_NAME = dalazuana_viagens;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		55DF2181271BED5D00B1F382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U258Z3LPU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.walicen.dalazuana-viagens";
+				PRODUCT_NAME = dalazuana_viagens;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55DF2162271BED5B00B1F382 /* Build configuration list for PBXProject "dalazuana_viagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DF217A271BED5D00B1F382 /* Debug */,
+				55DF217B271BED5D00B1F382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DF217C271BED5D00B1F382 /* Build configuration list for PBXNativeTarget "dalazuana_viagens (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DF217D271BED5D00B1F382 /* Debug */,
+				55DF217E271BED5D00B1F382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DF217F271BED5D00B1F382 /* Build configuration list for PBXNativeTarget "dalazuana_viagens (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DF2180271BED5D00B1F382 /* Debug */,
+				55DF2181271BED5D00B1F382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55DF215F271BED5B00B1F382 /* Project object */;
+}
